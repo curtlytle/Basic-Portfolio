@@ -1,0 +1,53 @@
+header {
+    background: #cccccc;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    color: #333333;
+    float: left;
+}
+
+#me {
+    background: #6ea3da;
+    width: 15%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+
+#headerblank {
+    width: 40%;
+    float: left;
+}
+
+#nav {
+    float: left;
+    background: #efeee7;
+    height: 30px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#main {
+    clear: both;
+    border: 10px;
+    background: #eeeeee;
+    float: left;
+}
+
+#right {
+    border: 10px;
+    float: left;
+    background: #cccccc;
+}
+
+footer {
+    clear: both;
+}
