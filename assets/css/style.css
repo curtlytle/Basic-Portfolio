@@ -123,7 +123,9 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    z-index: -1;
 }
+
 
 footer:after {
     content: "\00a9 Copyright 2017 Curtis Lytle";
