@@ -26,7 +26,7 @@ header {
     visibility: hidden;
 }
 
-#nav {
+#navi {
     float: left;
     background: #fefff7;
     height: 30px;
@@ -34,13 +34,18 @@ header {
 }
 
 a {
-    text-decoration: #6ea3da;
+    text-decoration: #888888;
+    color: #888888;
     padding: 10px;
     font-size: 18px;
 }
 
 a.icon-bar {
     padding: 0px;
+}
+
+p {
+    line-height: 125%;
 }
 
 #middle {
@@ -54,7 +59,7 @@ a.icon-bar {
     background: #fefff7;
     padding: 20px;
     margin-left: 60px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
     margin-right: 20px;
     width: 50%;
@@ -66,7 +71,7 @@ a.icon-bar {
     background: #fefff7;
     padding: 20px;
     margin-left: 60px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
     margin-right: 20px;
     width: 20%;
@@ -102,6 +107,10 @@ a.icon-bar {
 
 #contact-info {
     align-content: center;
+}
+
+#cicons {
+    text-align: center;
 }
 
 hr {
