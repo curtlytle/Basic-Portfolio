@@ -38,18 +38,20 @@ header {
     padding: 20px;
 }
 
-a {
+.a_nav {
     text-decoration: #888888;
     color: #888888;
     padding: 10px;
     font-size: 18px;
 }
 
-a.icon-bar {
+.icon-bar {
     padding: 0px;
+    margin: 2px;
+    text-decoration: none;
 }
 
-a:hover {
+a.a_nav:hover {
     color: #6ea3da;
 }
 
@@ -115,16 +117,20 @@ p {
 }
 
 #p1, #p2, #p3, #p4, #p5 {
-    /*background: grey;*/
     margin: 15px;
     float: left;
-    /*width: 150px;*/
-    /*height: 40%;*/
+}
+
+#p1d {
+    float: none;
+    background: #6ea3da;
+    color: white;
 }
 
 .pics {
     width: 220px;
     height: 170px;
+    /*margin: 20px;*/
 }
 
 #portlabel1 {
